@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily News</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-top">TRUSTED · INDEPENDENT · DAILY</div>
+      <div class="masthead">
+        <h1>📰 Daily News</h1>
+        <div class="masthead-sub" id="dateLine">[date] · BREAKING NEWS 24/7 · EDITION: GLOBAL</div>
+      </div>
+      <nav class="cat-nav" id="categoryNav"></nav>
+      <div class="ticker">
+        <span class="ticker-label">LIVE</span>
+        <div class="ticker-text" id="tickerText">Loading headlines…</div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="latest-news">
+        <div class="section-header">Latest News ────</div>
+        <div class="latest-list" id="latestNewsList"></div>
+      </section>
+      <div class="hero">
+        <div class="hero-main" id="heroMain"></div>
+        <div class="hero-sidebar" id="heroSidebar"></div>
+      </div>
+      <div class="section-header">More Stories ────</div>
+      <div class="news-grid" id="newsGrid"></div>
+    </main>
+
+    <footer class="bottom-bar">© 2026 DAILY NEWS · ALL RIGHTS RESERVED</footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
